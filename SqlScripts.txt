@@ -1,0 +1,13 @@
+CREATE TABLE users(
+  id int,
+  email varchar,
+  password varchar,
+  fullname varchar,
+  zip_code varchar,
+  street varchar,
+  streetnumber varchar,
+  dt_created date DEFAULT GETDATE()
+  PRIMARY KEY(id)
+);
+
+
