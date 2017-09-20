@@ -6,6 +6,9 @@ fullname
 zipcode
 street
 streetnumber
+delivery_adres
+dt_birth
+gender
 user_level
 l_show
 dt_created
