@@ -1,0 +1,37 @@
+﻿
+@{
+    ViewBag.Title = "Inloggen_";
+}
+<div class="row">
+    <div class="col-md-4 ">
+        <form class="form-horizontal" role="form" method="POST" action='@Url.Action("LoginIndex","Login")'>
+            <fieldset>
+               <legend>Inloggen</legend>
+                <div class="form-group">
+                        <div class="col-sm-10">
+                            <input name="email" type="email"  placeholder="Email" class="form-control" id="email">
+                        </div>
+                        <div class="col-sm-10">
+                            <input type="password" name="password" placeholder="Wachtwoord" class="form-control" id="password">
+                        </div>
+                    </div>
+                    <input type="submit"/>
+                    <br /> 
+             </fieldset>
+         </form>
+    </div>
+    <div class="col-md-4 col-md-offset-1">
+        <form class="form-horizontal" role="form">
+            <fieldset>
+                <legend>Log in met social media</legend>
+                <button class="loginBtn loginBtn--facebook">
+                    Login with Facebook
+                </button>
+
+                <button class="loginBtn loginBtn--google">
+                    Login with Google
+                </button>
+                </fieldset>
+        </form>
+    </div>
+ </div>    
