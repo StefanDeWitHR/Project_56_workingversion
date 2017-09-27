@@ -5790,17 +5790,17 @@
       ]
     },
     "Microsoft.CodeAnalysis.Analyzers/1.1.0": {
-      "sha512": "HS3iRWZKcUw/8eZ/08GXKY2Bn7xNzQPzf8gRPHGSowX7u7XXu9i9YEaBeBNKUXWfI7qjvT2zXtLUvbN0hds8vg==",
+      "sha512": "e1WfXpkssnL86+VBRnA1mNuy6y189eUav1j4ThOt6r4ItfCzm0n/FH5TYjdSqS7DtHY+yIo4Aha1J2GPnfzrGw==",
       "type": "package",
       "path": "microsoft.codeanalysis.analyzers/1.1.0",
       "files": [
+        "Microsoft.CodeAnalysis.Analyzers.1.1.0.nupkg.sha512",
+        "Microsoft.CodeAnalysis.Analyzers.nuspec",
         "ThirdPartyNotices.rtf",
         "analyzers/dotnet/cs/Microsoft.CodeAnalysis.Analyzers.dll",
         "analyzers/dotnet/cs/Microsoft.CodeAnalysis.CSharp.Analyzers.dll",
         "analyzers/dotnet/vb/Microsoft.CodeAnalysis.Analyzers.dll",
         "analyzers/dotnet/vb/Microsoft.CodeAnalysis.VisualBasic.Analyzers.dll",
-        "microsoft.codeanalysis.analyzers.1.1.0.nupkg.sha512",
-        "microsoft.codeanalysis.analyzers.nuspec",
         "tools/install.ps1",
         "tools/uninstall.ps1"
       ]
@@ -9632,10 +9632,12 @@
       ]
     },
     "System.Linq.Queryable/4.0.1": {
-      "sha512": "Yn/WfYe9RoRfmSLvUt2JerP0BTGGykCZkQPgojaxgzF2N0oPo+/AhB8TXOpdCcNlrG3VRtsamtK2uzsp3cqRVw==",
+      "sha512": "XWqUVAAkdnPs37dIP/OiuyLb9Dj9grurFI4QukRJYq/vgjeb563KP66JLUyAzCoPP+Uv7Q6k9SySKQ4cEqWGCA==",
       "type": "package",
       "path": "system.linq.queryable/4.0.1",
       "files": [
+        "System.Linq.Queryable.4.0.1.nupkg.sha512",
+        "System.Linq.Queryable.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/monoandroid10/_._",
@@ -9683,9 +9685,7 @@
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._",
-        "system.linq.queryable.4.0.1.nupkg.sha512",
-        "system.linq.queryable.nuspec"
+        "ref/xamarinwatchos10/_._"
       ]
     },
     "System.Net.Http/4.3.0": {
@@ -12574,23 +12574,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\super\\.nuget\\packages\\": {},
+    "C:\\Users\\joels\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\super\\OneDrive\\Documenten\\GitHub\\Project_56_workingversion\\Project56\\Project56.csproj",
+      "projectUniqueName": "C:\\Users\\joels\\OneDrive\\Documenten\\school\\jaar 2\\project 5-6\\project-5-6\\Project_56_workingversion\\project56\\Project56.csproj",
       "projectName": "Project56",
-      "projectPath": "C:\\Users\\super\\OneDrive\\Documenten\\GitHub\\Project_56_workingversion\\Project56\\Project56.csproj",
-      "packagesPath": "C:\\Users\\super\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\super\\OneDrive\\Documenten\\GitHub\\Project_56_workingversion\\Project56\\obj\\",
+      "projectPath": "C:\\Users\\joels\\OneDrive\\Documenten\\school\\jaar 2\\project 5-6\\project-5-6\\Project_56_workingversion\\project56\\Project56.csproj",
+      "packagesPath": "C:\\Users\\joels\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\joels\\OneDrive\\Documenten\\school\\jaar 2\\project 5-6\\project-5-6\\Project_56_workingversion\\project56\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\super\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\joels\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
