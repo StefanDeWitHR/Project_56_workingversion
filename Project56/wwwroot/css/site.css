@@ -241,3 +241,8 @@ textarea {
 .MarginTop{
     margin-top : 6px;
 }
+
+.container-content {
+    float: left;
+    width: 100%;
+}

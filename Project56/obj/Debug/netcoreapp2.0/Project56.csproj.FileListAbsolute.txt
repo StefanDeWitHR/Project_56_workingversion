@@ -8,3 +8,13 @@ C:\Users\super\OneDrive\Documenten\Project56\obj\Debug\netcoreapp2.0\Project56.A
 C:\Users\super\OneDrive\Documenten\Project56\obj\Debug\netcoreapp2.0\Project56.AssemblyInfo.cs
 C:\Users\super\OneDrive\Documenten\Project56\obj\Debug\netcoreapp2.0\Project56.dll
 C:\Users\super\OneDrive\Documenten\Project56\obj\Debug\netcoreapp2.0\Project56.pdb
+C:\Users\fabia\OneDrive\Documenten\GitHub\Project_56_workingversion\Project56\bin\Debug\netcoreapp2.0\Project56.deps.json
+C:\Users\fabia\OneDrive\Documenten\GitHub\Project_56_workingversion\Project56\bin\Debug\netcoreapp2.0\Project56.runtimeconfig.json
+C:\Users\fabia\OneDrive\Documenten\GitHub\Project_56_workingversion\Project56\bin\Debug\netcoreapp2.0\Project56.runtimeconfig.dev.json
+C:\Users\fabia\OneDrive\Documenten\GitHub\Project_56_workingversion\Project56\bin\Debug\netcoreapp2.0\Project56.dll
+C:\Users\fabia\OneDrive\Documenten\GitHub\Project_56_workingversion\Project56\bin\Debug\netcoreapp2.0\Project56.pdb
+C:\Users\fabia\OneDrive\Documenten\GitHub\Project_56_workingversion\Project56\obj\Debug\netcoreapp2.0\Project56.csproj.CoreCompileInputs.cache
+C:\Users\fabia\OneDrive\Documenten\GitHub\Project_56_workingversion\Project56\obj\Debug\netcoreapp2.0\Project56.AssemblyInfoInputs.cache
+C:\Users\fabia\OneDrive\Documenten\GitHub\Project_56_workingversion\Project56\obj\Debug\netcoreapp2.0\Project56.AssemblyInfo.cs
+C:\Users\fabia\OneDrive\Documenten\GitHub\Project_56_workingversion\Project56\obj\Debug\netcoreapp2.0\Project56.dll
+C:\Users\fabia\OneDrive\Documenten\GitHub\Project_56_workingversion\Project56\obj\Debug\netcoreapp2.0\Project56.pdb
