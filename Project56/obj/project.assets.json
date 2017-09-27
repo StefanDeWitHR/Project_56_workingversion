@@ -12580,11 +12580,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\joels\\OneDrive\\Documenten\\school\\jaar 2\\project 5-6\\project-5-6\\Project_56_workingversion\\project56\\Project56.csproj",
+      "projectUniqueName": "C:\\Users\\joels\\OneDrive\\Documenten\\school\\jaar 2\\project 5-6\\project-5-6\\Project_56_workingversion\\Project56\\Project56.csproj",
       "projectName": "Project56",
-      "projectPath": "C:\\Users\\joels\\OneDrive\\Documenten\\school\\jaar 2\\project 5-6\\project-5-6\\Project_56_workingversion\\project56\\Project56.csproj",
+      "projectPath": "C:\\Users\\joels\\OneDrive\\Documenten\\school\\jaar 2\\project 5-6\\project-5-6\\Project_56_workingversion\\Project56\\Project56.csproj",
       "packagesPath": "C:\\Users\\joels\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\joels\\OneDrive\\Documenten\\school\\jaar 2\\project 5-6\\project-5-6\\Project_56_workingversion\\project56\\obj\\",
+      "outputPath": "C:\\Users\\joels\\OneDrive\\Documenten\\school\\jaar 2\\project 5-6\\project-5-6\\Project_56_workingversion\\Project56\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

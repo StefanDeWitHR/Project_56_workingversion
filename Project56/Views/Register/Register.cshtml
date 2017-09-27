@@ -1,4 +1,4 @@
-@model Users
+@model Project56.Models.Users
 
 <div class="row">
     <div class="col-md-10 ">
@@ -7,46 +7,48 @@
             <legend>Registeren</legend>
                 <div class="form-group">
                         <div class="col-sm-10">
-                            @Html.TextBox("email") 
+                            @Html.TextBox("email", null, new { id = "email", @class = "form-control" })
                            
                         </div>
                         <div class="col-sm-10">
-                            @Html.TextBox("password") 
-                           
-                        </div>
+                            @Html.TextBox("password", null, new { id = "password", @class = "form-control", type="password" }) 
+                        </div>  
+
+                <div class="form-group">
                         <div class="col-sm-4">
-                            @html.TextBox("user_level")
+                            @Html.TextBox("FirstName", null, new { id = "FirstName", @class = "form-control" })
                         </div>
                         <div class="col-sm-2">
-                            @html.TextBox("Text")
+                            @Html.TextBox("MiddleName", null, new { id = "MiddleName", @class = "form-control" })
                         </div>
                         <div class="col-sm-5">
-                            @html.TextBox("Text")
+                            @Html.TextBox("LastName", null, new { id = "LastName", @class = "form-control" })
                         </div>
 
                     <div class="col-sm-5">
-                        @html.TextBox("Geboorte Datum")
+                        @Html.TextBox("Geboorte Datum", null, new { id = "Geboorte Datum", @class = "form-control" })
                     </div>
 
                     <div class="col-sm-4">
-                        @html.TextBox("gender")
+                        @Html.TextBox("Gender" , null, new { id = "Gender", @class = "form-control" })
                     </div>
+                </div>
 
                 <legend>Adresgegevens</legend>
 
                     <div class="col-sm-10">
-                        @html.TextBox("AddressLine1")
+                        @Html.TextBox("AddressLine1", null, new { id = "AddressLine1", @class = "form-control" })
                     </div>
                 
                     <div class="col-sm-10">
-                        @html.TextBox("AddressLine2")
+                        @Html.TextBox("AddressLine2", null, new { id = "AddresLine2", @class = "form-control" })
                     </div>
 
                     <div class="col-sm-4">
-                        @html.TextBox("City")
+                        @Html.TextBox("City", null, new { id = "City", @class = "form-control" })
                     </div>
                     <div class="col-sm-4">
-                        @html.TextBox("PostalCode")
+                        @Html.TextBox("PostalCode", null, new { id = "PostalCode", @class = "form-control" })
                     </div>
                 </div>
 
