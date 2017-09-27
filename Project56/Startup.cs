@@ -23,7 +23,7 @@ namespace Project56
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<UserContext> (
+            services.AddDbContext<DBModel> (
                 // opt => opt.UseNpgsql(@"Host=127.0.0.1;Port=5432;Database=MovieDB;Username=postgres;Password=stefan"));
                   opt => opt.UseNpgsql(@"Host=54.36.99.83;Port=5432;Database=admin_webshop;Username=admin_webshop;Password=webshop123"));
             services.AddMvc();
