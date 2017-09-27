@@ -28,3 +28,13 @@ C:\Users\joels\OneDrive\Documenten\school\jaar 2\project 5-6\project-5-6\Project
 C:\Users\joels\OneDrive\Documenten\school\jaar 2\project 5-6\project-5-6\Project_56_workingversion\Project56\obj\Debug\netcoreapp2.0\Project56.AssemblyInfo.cs
 C:\Users\joels\OneDrive\Documenten\school\jaar 2\project 5-6\project-5-6\Project_56_workingversion\Project56\obj\Debug\netcoreapp2.0\Project56.dll
 C:\Users\joels\OneDrive\Documenten\school\jaar 2\project 5-6\project-5-6\Project_56_workingversion\Project56\obj\Debug\netcoreapp2.0\Project56.pdb
+C:\Users\super\OneDrive\Documenten\GitHub\Project_56_workingversion\Project56\bin\Debug\netcoreapp2.0\Project56.deps.json
+C:\Users\super\OneDrive\Documenten\GitHub\Project_56_workingversion\Project56\bin\Debug\netcoreapp2.0\Project56.runtimeconfig.json
+C:\Users\super\OneDrive\Documenten\GitHub\Project_56_workingversion\Project56\bin\Debug\netcoreapp2.0\Project56.runtimeconfig.dev.json
+C:\Users\super\OneDrive\Documenten\GitHub\Project_56_workingversion\Project56\bin\Debug\netcoreapp2.0\Project56.dll
+C:\Users\super\OneDrive\Documenten\GitHub\Project_56_workingversion\Project56\bin\Debug\netcoreapp2.0\Project56.pdb
+C:\Users\super\OneDrive\Documenten\GitHub\Project_56_workingversion\Project56\obj\Debug\netcoreapp2.0\Project56.csproj.CoreCompileInputs.cache
+C:\Users\super\OneDrive\Documenten\GitHub\Project_56_workingversion\Project56\obj\Debug\netcoreapp2.0\Project56.AssemblyInfoInputs.cache
+C:\Users\super\OneDrive\Documenten\GitHub\Project_56_workingversion\Project56\obj\Debug\netcoreapp2.0\Project56.AssemblyInfo.cs
+C:\Users\super\OneDrive\Documenten\GitHub\Project_56_workingversion\Project56\obj\Debug\netcoreapp2.0\Project56.dll
+C:\Users\super\OneDrive\Documenten\GitHub\Project_56_workingversion\Project56\obj\Debug\netcoreapp2.0\Project56.pdb

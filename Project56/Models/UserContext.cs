@@ -23,7 +23,7 @@ namespace Project56.Models
     }
     public  class Users {
         public int id {get;set;}
-        public string email  {get;set;}
+        public string email  {get;set;}    
         public string password {get;set;}   
         public int user_level {get;set;}
         
@@ -32,5 +32,6 @@ namespace Project56.Models
             List<Users> result = _context.users_db_set.Where(u => u.email == email && u.password == password).ToList();
             return result;
           }  
+          
     }
 }
