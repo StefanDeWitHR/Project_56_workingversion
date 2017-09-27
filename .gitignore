@@ -1,5 +1,5 @@
 
-# Created by https://www.gitignore.io/api/csharp,aspnetcore,visualstudiocode
+# Created by https://www.gitignore.io/api/git,csharp,aspnetcore,visualstudiocode
 
 ### ASPNETCore ###
 ## Ignore Visual Studio temporary files, build results, and
@@ -22,7 +22,7 @@
 x64/
 x86/
 bld/
-[Bb]in/F
+[Bb]in/
 [Oo]bj/
 [Ll]og/
 
@@ -415,6 +415,9 @@ typings/
 *.odx.cs
 *.xsd.cs
 
+### Git ###
+*.orig
+
 ### VisualStudioCode ###
 .vscode/*
 !.vscode/settings.json
@@ -423,11 +426,4 @@ typings/
 !.vscode/extensions.json
 .history
 
-# End of https://www.gitignore.io/api/csharp,aspnetcore,visualstudiocode
-Project56/obj/Debug/netcoreapp2.0/Project56.csproj.CoreCompileInputs.cache
-Project56/obj/project.assets.json
-Project56/obj/Debug/netcoreapp2.0/Project56.pdb
-Project56/obj/Debug/netcoreapp2.0/Project56.csproj.CoreCompileInputs.cache
-Project56/obj/Project56.csproj.nuget.g.props
-Project56/obj/Project56.csproj.nuget.g.props
-*.props
+# End of https://www.gitignore.io/api/git,csharp,aspnetcore,visualstudiocode
