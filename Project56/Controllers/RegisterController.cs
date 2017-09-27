@@ -11,12 +11,22 @@ namespace Project56.Controllers
 {
     public class RegisterController : Controller
     {
-        private readonly UserContext _context;
+        private readonly DBModel _context;
 
+        public RegisterController(DBModel context){
+            _context  = context;
+        }
         [HttpGet]
         public IActionResult Register()
         {
             return View();
+        }
+        [HttpPost]
+        public void Register(Users u ){
+
+            if (u != null){
+               _context.users_db_set.Add(u);
+            }
         }
   
     }
