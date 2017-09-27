@@ -11,9 +11,9 @@ namespace Project56.Controllers
 {
     public class LoginController : Controller
     {
-        private readonly UserContext _context;
+        private readonly DBModel _context;
 
-        public LoginController (UserContext context) {
+        public LoginController (DBModel context) {
             _context = context;
         }
         [HttpGet]
@@ -25,8 +25,10 @@ namespace Project56.Controllers
         public IActionResult Login(Users u){
 
             if(ModelState.IsValid){
+              
+               u =  u.IsValid(u.email, u.password , _context);
 
-                 if(u.IsValid(u.email, u.password , _context) != null ){
+                if (u != null){
                         
                      if(u.user_level == 1){
                          // admin login
@@ -37,7 +39,7 @@ namespace Project56.Controllers
                      }
                     
                 }else{
-                    ModelState.AddModelError("" , "Login is incorrect");    
+                  return RedirectToAction("index", "LoginIncorrect");   
                 }
             }
             return View();
