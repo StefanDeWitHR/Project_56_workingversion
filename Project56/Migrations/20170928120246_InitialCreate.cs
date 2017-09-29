@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 namespace Project56.Migrations
 {
-    public partial class InitialMigrationCreate : Migration
+    public partial class InitialCreate : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -137,19 +137,19 @@ namespace Project56.Migrations
                 {
                     id = table.Column<int>(type: "int4", nullable: false)
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.SerialColumn),
-                    delivery_adres = table.Column<string>(type: "text", nullable: true),
+                    a_adres = table.Column<string>(type: "text", nullable: true),
+                    a_city = table.Column<string>(type: "text", nullable: true),
+                    a_zipcode = table.Column<string>(type: "text", nullable: true),
+                    d_adres = table.Column<string>(type: "text", nullable: true),
+                    d_city = table.Column<string>(type: "text", nullable: true),
+                    d_zipcode = table.Column<string>(type: "text", nullable: true),
                     dt_birth = table.Column<string>(type: "text", nullable: true),
-                    dt_created = table.Column<DateTime>(type: "timestamp", nullable: false),
-                    dt_modified = table.Column<DateTime>(type: "timestamp", nullable: false),
                     email = table.Column<string>(type: "text", nullable: true),
                     fullname = table.Column<string>(type: "text", nullable: true),
                     gender = table.Column<string>(type: "text", nullable: true),
                     l_show = table.Column<int>(type: "int4", nullable: false),
                     password = table.Column<string>(type: "text", nullable: true),
-                    street = table.Column<string>(type: "text", nullable: true),
-                    streetnumber = table.Column<string>(type: "text", nullable: true),
-                    user_level = table.Column<int>(type: "int4", nullable: false),
-                    zipcode = table.Column<string>(type: "text", nullable: true)
+                    user_level = table.Column<int>(type: "int4", nullable: false)
                 },
                 constraints: table =>
                 {

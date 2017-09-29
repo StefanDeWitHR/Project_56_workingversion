@@ -25,7 +25,9 @@ namespace Project56
         {
             services.AddDbContext<DBModel> (
                 // opt => opt.UseNpgsql(@"Host=127.0.0.1;Port=5432;Database=MovieDB;Username=postgres;Password=stefan"));
-                  opt => opt.UseNpgsql(@"Host=54.36.99.83;Port=5432;Database=admin_webshop;Username=admin_webshop;Password=webshop123"));
+                  opt => opt.UseNpgsql(@"Host=127.0.0.1;Port=5432;Database=admin_webshop;Username=postgres;Password=stefan"));
+
+                  //   opt => opt.UseNpgsql(@"Host=54.36.99.83;Port=5432;Database=admin_webshop;Username=admin_webshop;Password=webshop123"));
             services.AddMvc();
          
         }

@@ -25,7 +25,12 @@ namespace Project56.Controllers
         public void Register(Users u ){
 
             if (u != null){
+                // Default registration
+                u.l_show = 1;
+                u.user_level = 0 ;
+
                _context.users_db_set.Add(u);
+               _context.SaveChanges();
             }
         }
   

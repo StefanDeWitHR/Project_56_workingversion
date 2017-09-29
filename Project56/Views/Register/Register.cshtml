@@ -1,5 +1,6 @@
 @model Project56.Models.Users
 
+
 <div class="row">
     <div class="col-md-10 ">
         @using (Html.BeginForm("Register", "Register", FormMethod.Post ))
@@ -7,55 +8,79 @@
             <legend>Registeren</legend>
                 <div class="form-group">
                         <div class="col-sm-10">
-                            @Html.TextBox("email", null, new { id = "email", @class = "form-control" })
+                            @Html.TextBox("email", null, new { @class = "form-control" , placeholder="Email" })
                            
                         </div>
                         <div class="col-sm-10">
-                            @Html.TextBox("password", null, new { id = "password", @class = "form-control", type="password" }) 
+                            @Html.TextBox("password", null, new {  @class = "form-control", type="password"  , placeholder="Wachtwoord"}) 
                         </div>  
 
                 <div class="form-group">
                         <div class="col-sm-4">
-                            @Html.TextBox("FirstName", null, new { id = "FirstName", @class = "form-control" })
+                            @Html.TextBox("fullname", null, new {  @class = "form-control"  , placeholder="Voornaam"})
                         </div>
-                        <div class="col-sm-2">
-                            @Html.TextBox("MiddleName", null, new { id = "MiddleName", @class = "form-control" })
-                        </div>
-                        <div class="col-sm-5">
-                            @Html.TextBox("LastName", null, new { id = "LastName", @class = "form-control" })
-                        </div>
+
 
                     <div class="col-sm-5">
-                        @Html.TextBox("Geboorte Datum", null, new { id = "Geboorte Datum", @class = "form-control" })
+                        @Html.TextBox("dt_birth", null, new {  @class = "form-control" , placeholder="Geboorte datum"  , type="date"})
                     </div>
 
                     <div class="col-sm-4">
-                        @Html.TextBox("Gender" , null, new { id = "Gender", @class = "form-control" })
+                   
+                            @{
+                            List<SelectListItem> listItems= new List<SelectListItem>();
+                            listItems.Add(new SelectListItem
+                                    {
+                                    Text = "Joel scholt",
+                                    Value = "Joel scholt",
+                                    Selected = true
+                                    });
+                            listItems.Add(new SelectListItem
+                                    {
+                                        Text = "Man",
+                                        Value = "Man"
+                                    });
+                            listItems.Add(new SelectListItem
+                                    {
+                                        Text = "Vrouw",
+                                        Value = "Vrouw"
+                                    });
+                            }
+
+                                @Html.DropDownListFor(model => model.gender, listItems, "-- Selecteer geslacht --" , new {@class = "form-control"})
                     </div>
                 </div>
 
-                <legend>Adresgegevens</legend>
+                <legend>Adresgegevens </legend>
 
                     <div class="col-sm-10">
-                        @Html.TextBox("AddressLine1", null, new { id = "AddressLine1", @class = "form-control" })
+                        @Html.TextBox("a_adres", null, new { @class = "form-control" , placeholder="Adres" })
                     </div>
+                    
+                    <div class="col-sm-4">
+                        @Html.TextBox("a_zipcode", null, new {  @class = "form-control" ,  placeholder="Postcode" })
+                    </div>
+                    <div class="col-sm-4">
+                        @Html.TextBox("a_city", null, new {  @class = "form-control" , placeholder= "Stad"})
+                    </div>
+                    <legend>Bezorg gegevens </legend>
                 
                     <div class="col-sm-10">
-                        @Html.TextBox("AddressLine2", null, new { id = "AddresLine2", @class = "form-control" })
+                        @Html.TextBox("d_adres", null, new { @class = "form-control"  , placeholder= "Bezorg adres" })
                     </div>
-
+                    
                     <div class="col-sm-4">
-                        @Html.TextBox("City", null, new { id = "City", @class = "form-control" })
+                        @Html.TextBox("d_zipcode", null, new {  @class = "form-control"  , placeholder= "Postcode " })
                     </div>
                     <div class="col-sm-4">
-                        @Html.TextBox("PostalCode", null, new { id = "PostalCode", @class = "form-control" })
+                        @Html.TextBox("d_city", null, new {  @class = "form-control"  , placeholder="Stad" })
                     </div>
                 </div>
 
 
-                <input type="submit"/>
+                <input type="submit" value="Registeren"/>
                 <br /> 
         }
-                <button type="submit">Registreren</button>
+
             </fieldset>
 

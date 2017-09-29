@@ -22,15 +22,14 @@ namespace Project56.Controllers
             return View();
         }
         [HttpPost]
-        public IActionResult Login(Users u){
+        public IActionResult Login(Users usr){
 
             if(ModelState.IsValid){
-              
-               u =  u.IsValid(u.email, u.password , _context);
-
-                if (u != null){
+            
+               usr = _context.users_db_set.Where(u => u.email == u.email && u.password == u.password).FirstOrDefault();   
+                if (usr != null){
                         
-                     if(u.user_level == 1){
+                     if(usr.user_level == 1){
                          // admin login
                         return RedirectToAction("index", "Admin");
                      }else{

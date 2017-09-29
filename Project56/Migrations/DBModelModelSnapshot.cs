@@ -171,13 +171,19 @@ namespace Project56.Migrations
                     b.Property<int>("id")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<string>("delivery_adres");
+                    b.Property<string>("a_adres");
+
+                    b.Property<string>("a_city");
+
+                    b.Property<string>("a_zipcode");
+
+                    b.Property<string>("d_adres");
+
+                    b.Property<string>("d_city");
+
+                    b.Property<string>("d_zipcode");
 
                     b.Property<string>("dt_birth");
-
-                    b.Property<DateTime>("dt_created");
-
-                    b.Property<DateTime>("dt_modified");
 
                     b.Property<string>("email");
 
@@ -189,13 +195,7 @@ namespace Project56.Migrations
 
                     b.Property<string>("password");
 
-                    b.Property<string>("street");
-
-                    b.Property<string>("streetnumber");
-
                     b.Property<int>("user_level");
-
-                    b.Property<string>("zipcode");
 
                     b.HasKey("id");
 
