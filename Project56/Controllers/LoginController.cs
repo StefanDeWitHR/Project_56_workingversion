@@ -26,10 +26,11 @@ namespace Project56.Controllers
 
             if(ModelState.IsValid){
             
-               usr = _context.users_db_set.Where(u => u.email == u.email && u.password == u.password).FirstOrDefault();   
-                if (usr != null){
+               var result = _context.users_db_set.Where(u => u.email == usr.email && u.password == usr.password).FirstOrDefault();   
+               
+                if (result != null){
                         
-                     if(usr.user_level == 1){
+                     if(result.user_level == 1){
                          // admin login
                         return RedirectToAction("index", "Admin");
                      }else{
