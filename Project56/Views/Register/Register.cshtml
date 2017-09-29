@@ -8,22 +8,39 @@
             <legend>Registeren</legend>
                 <div class="form-group">
                         <div class="col-sm-10">
-                            @Html.TextBox("email", null, new { @class = "form-control" , placeholder="Email" })
+                            @Html.TextBox("email", null, new { @class = "form-control" , placeholder="E-mail" })
                            
                         </div>
+
                         <div class="col-sm-10">
                             @Html.TextBox("password", null, new {  @class = "form-control", type="password"  , placeholder="Wachtwoord"}) 
                         </div>  
+                </div>
 
                 <div class="form-group">
                         <div class="col-sm-4">
-                            @Html.TextBox("fullname", null, new {  @class = "form-control"  , placeholder="Voornaam"})
+                            @Html.TextBox("firstname", null, new {  @class = "form-control"  , placeholder="Voornaam"})
                         </div>
+                </div>
 
+                <div class="form-group">
+                        <div class="col-sm-4">
+                            @Html.TextBox("middlename", null, new {  @class = "form-control"  , placeholder="Tussenvoegsel"})
+                        </div>
+                </div>
+                    
+                <div class="form-group">
+                        <div class="col-sm-4">
+                            @Html.TextBox("lastename", null, new {  @class = "form-control"  , placeholder="Achternaam"})
+                        </div>
 
                     <div class="col-sm-5">
                         @Html.TextBox("dt_birth", null, new {  @class = "form-control" , placeholder="Geboorte datum"  , type="date"})
                     </div>
+
+                    <div class="col-sm-9">
+                            @Html.TextBox("MobilNumber", null, new {  @class = "form-control"  , placeholder="Telefoonnummer"})
+                        </div>
 
                     <div class="col-sm-4">
                    
@@ -54,28 +71,24 @@
                 <legend>Adresgegevens </legend>
 
                     <div class="col-sm-10">
-                        @Html.TextBox("a_adres", null, new { @class = "form-control" , placeholder="Adres" })
+                        @Html.TextBox("a_adres", null, new { @class = "form-control" , placeholder="Straat" })
+                    </div>
+
+                    <div class="col-sm-6">
+                        @Html.TextBox("a_number", null, new { @class = "form-control" , placeholder="Huisnummer" })
                     </div>
                     
                     <div class="col-sm-4">
                         @Html.TextBox("a_zipcode", null, new {  @class = "form-control" ,  placeholder="Postcode" })
                     </div>
+
                     <div class="col-sm-4">
-                        @Html.TextBox("a_city", null, new {  @class = "form-control" , placeholder= "Stad"})
+                        @Html.TextBox("a_city", null, new {  @class = "form-control" , placeholder= "Plaats"})
                     </div>
-                    <legend>Bezorg gegevens </legend>
-                
-                    <div class="col-sm-10">
-                        @Html.TextBox("d_adres", null, new { @class = "form-control"  , placeholder= "Bezorg adres" })
-                    </div>
-                    
+
                     <div class="col-sm-4">
-                        @Html.TextBox("d_zipcode", null, new {  @class = "form-control"  , placeholder= "Postcode " })
+                        @Html.TextBox("country", null, new {  @class = "form-control" , placeholder= "Land"})
                     </div>
-                    <div class="col-sm-4">
-                        @Html.TextBox("d_city", null, new {  @class = "form-control"  , placeholder="Stad" })
-                    </div>
-                </div>
 
 
                 <input type="submit" value="Registeren"/>
