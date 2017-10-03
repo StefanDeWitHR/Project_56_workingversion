@@ -25,6 +25,7 @@
         "dependencies": {
           "Microsoft.AspNetCore.All": "2.0.0",
           "Microsoft.EntityFrameworkCore.Design": "2.0.0",
+          "Microsoft.Extensions.Caching.Memory": "2.0.0",
           "Microsoft.NETCore.App": "2.0.0",
           "Newtonsoft.Json": "10.0.3",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "2.0.0"
