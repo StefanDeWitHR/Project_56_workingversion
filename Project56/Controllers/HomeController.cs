@@ -38,5 +38,10 @@ namespace Project56.Controllers
 
             return View();
         }
+         public IActionResult ShopingCart(){
+            ViewData["Message"] = "Shopping cart page";
+
+            return View();
+        }
     }
 }
