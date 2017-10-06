@@ -8,21 +8,21 @@
             <legend>Registeren</legend>
                 <div class="form-group">
                         <div class="col-sm-10">
-                            @Html.TextBox("email", null, new { @class = "form-control" , placeholder="Email" })
+                            @Html.TextBox("email", null, new { @class = "form-control" , placeholder="Email"  , required="true"})
                            
                         </div>
                         <div class="col-sm-10">
-                            @Html.TextBox("password", null, new {  @class = "form-control", type="password"  , placeholder="Wachtwoord"}) 
+                            @Html.TextBox("password", null, new {  @class = "form-control", type="password"  , placeholder="Wachtwoord" , required="true"}) 
                         </div>  
 
                 <div class="form-group">
                         <div class="col-sm-4">
-                            @Html.TextBox("fullname", null, new {  @class = "form-control"  , placeholder="Voornaam"})
+                            @Html.TextBox("fullname", null, new {  @class = "form-control"  , placeholder="Voornaam" , required="true"})
                         </div>
 
 
                     <div class="col-sm-5">
-                        @Html.TextBox("dt_birth", null, new {  @class = "form-control" , placeholder="Geboorte datum"  , type="date"})
+                        @Html.TextBox("dt_birth", null, new {  @class = "form-control" , placeholder="Geboorte datum"  , type="date" , required="true"})
                     </div>
 
                     <div class="col-sm-4">
@@ -41,33 +41,33 @@
                                     });
                             }
 
-                                @Html.DropDownListFor(model => model.gender, listItems, "-- Selecteer geslacht --" , new {@class = "form-control"})
+                                @Html.DropDownListFor(model => model.gender, listItems, "-- Selecteer geslacht --" , new {@class = "form-control" , required="true"})
                     </div>
                 </div>
 
                 <legend>Adresgegevens </legend>
 
                     <div class="col-sm-10">
-                        @Html.TextBox("a_adres", null, new { @class = "form-control" , placeholder="Adres" })
+                        @Html.TextBox("a_adres", null, new { @class = "form-control" , placeholder="Adres" , required="true" })
                     </div>
                     
                     <div class="col-sm-4">
-                        @Html.TextBox("a_zipcode", null, new {  @class = "form-control" ,  placeholder="Postcode" })
+                        @Html.TextBox("a_zipcode", null, new {  @class = "form-control" ,  placeholder="Postcode" , required="true" })
                     </div>
                     <div class="col-sm-4">
-                        @Html.TextBox("a_city", null, new {  @class = "form-control" , placeholder= "Stad"})
+                        @Html.TextBox("a_city", null, new {  @class = "form-control" , placeholder= "Stad" , required="true"})
                     </div>
                     <legend>Bezorg gegevens </legend>
                 
                     <div class="col-sm-10">
-                        @Html.TextBox("d_adres", null, new { @class = "form-control"  , placeholder= "Bezorg adres" })
+                        @Html.TextBox("d_adres", null, new { @class = "form-control"  , placeholder= "Bezorg adres" , required="true" })
                     </div>
                     
                     <div class="col-sm-4">
-                        @Html.TextBox("d_zipcode", null, new {  @class = "form-control"  , placeholder= "Postcode " })
+                        @Html.TextBox("d_zipcode", null, new {  @class = "form-control"  , placeholder= "Postcode" , required="true" })
                     </div>
                     <div class="col-sm-4">
-                        @Html.TextBox("d_city", null, new {  @class = "form-control"  , placeholder="Stad" })
+                        @Html.TextBox("d_city", null, new {  @class = "form-control"  , placeholder="Stad" , required="true" })
                     </div>
                 </div>
 

@@ -10,12 +10,8 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace Project56.Models
 
   {
-    // Enum for select combo box in registration form
-    public enum Gender
-    {
-        Man,
-        Vrouw    
-    }
+   
+   
     public  class Users {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
@@ -25,11 +21,15 @@ namespace Project56.Models
         public int user_level {get;set;}
 
         public string fullname {get;set;}   
-        public string dt_birth {get;set;}
+        
+        // Error while updating database 
+        // Timezone is not set --> FIX
+        public DateTime dt_birth {get;set;}
         public string gender {get;set;}
 
         public int l_show {get;set;}
-    
+
+        
         public DateTime dt_created {get{ return DateTime.Now;}}
 
         public DateTime dt_modified {get{ return DateTime.Now;}}

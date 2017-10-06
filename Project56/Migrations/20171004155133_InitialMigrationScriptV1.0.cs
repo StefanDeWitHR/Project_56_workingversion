@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 namespace Project56.Migrations
 {
-    public partial class InitialCreate : Migration
+    public partial class InitialMigrationScriptV10 : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -143,7 +143,7 @@ namespace Project56.Migrations
                     d_adres = table.Column<string>(type: "text", nullable: true),
                     d_city = table.Column<string>(type: "text", nullable: true),
                     d_zipcode = table.Column<string>(type: "text", nullable: true),
-                    dt_birth = table.Column<string>(type: "text", nullable: true),
+                    dt_birth = table.Column<DateTime>(type: "timestamp", nullable: false),
                     email = table.Column<string>(type: "text", nullable: true),
                     fullname = table.Column<string>(type: "text", nullable: true),
                     gender = table.Column<string>(type: "text", nullable: true),

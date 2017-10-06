@@ -31,16 +31,13 @@ namespace Project56.Controllers
                var result = _context.users_db_set.Where(u => u.email == usr.email && u.password == usr.password).FirstOrDefault();   
                
                 if (result != null){
-                    
-                    // set session on user_id
-                   // HttpContext.Session.SetInt32("user_id", result.id);
 
-                    HttpContext.Session.Set<Users>("Usr_object" , result );
-
+                    HttpContext.Session.Set<Users>("Usr_object" , result );                  
                     // remove session  = Context.Session.Remove("Name");
 
                     var ReadSession = HttpContext.Session.Get<Users>("Usr_object");
-
+                    
+                   // var result1 = new NavigatorController().SessionNavigator("METHOD_NAME", "CONTROLLER_NAME");
 
                      if(result.user_level == 1){
                          // admin login

@@ -183,7 +183,7 @@ namespace Project56.Migrations
 
                     b.Property<string>("d_zipcode");
 
-                    b.Property<string>("dt_birth");
+                    b.Property<DateTime>("dt_birth");
 
                     b.Property<string>("email");
 

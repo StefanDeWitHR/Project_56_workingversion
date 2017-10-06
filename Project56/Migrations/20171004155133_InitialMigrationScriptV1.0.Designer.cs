@@ -11,8 +11,8 @@ using System;
 namespace Project56.Migrations
 {
     [DbContext(typeof(DBModel))]
-    [Migration("20170928120246_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20171004155133_InitialMigrationScriptV1.0")]
+    partial class InitialMigrationScriptV10
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -184,7 +184,7 @@ namespace Project56.Migrations
 
                     b.Property<string>("d_zipcode");
 
-                    b.Property<string>("dt_birth");
+                    b.Property<DateTime>("dt_birth");
 
                     b.Property<string>("email");
 
