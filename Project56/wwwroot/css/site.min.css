@@ -225,6 +225,6 @@ body{padding-top:50px;padding-bottom:20px}.body-content{padding-left:15px;paddin
     width: 100%;
 }
 
-
-
-
+.vertical-menu {
+    width: 100% !important;
+}
