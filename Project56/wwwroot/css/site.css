@@ -1,6 +1,6 @@
 ﻿body {
-    padding-top: 50px;
-    padding-bottom: 20px;
+    /*padding-top: 50px;
+    padding-bottom: 20px;*/
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -43,9 +43,11 @@ textarea {
 
     .nav-sidebar .vertical-menu a {
         cursor: default;
-        background-color: #428bca;
+        background-color: #464646;
         color: #fff;
         text-shadow: 1px 1px 1px #666;
+        margin-bottom: 1px;
+        border-radius: 5px;
     }
 
         .nav-sidebar .vertical-menu a:hover {
@@ -63,6 +65,12 @@ textarea {
 
     .navbar-inverse {
         background-color: #006699 !important;
+        border-color: none !important;
+        border-radius: 0px !important;
+        margin-bottom: 0px !important;
+    }
+    .navbar-inverse .navbar-nav > li > a {
+        color: white;
     }
 
     .vmenu {
@@ -227,9 +235,7 @@ textarea {
         background: #E74B37;
     }
 .body-content {
-    padding: 1%;
     overflow-y: scroll auto;
-    margin-left: 13%;
     min-height: 514px;
 }
 #footer {
@@ -245,4 +251,81 @@ textarea {
 .container-content {
     float: left;
     width: 100%;
+}
+.table>tbody>tr>td, .table>tfoot>tr>td{
+    vertical-align: middle;
+}
+@media screen and (max-width: 600px) {
+    table#cart tbody td .form-control{
+		width:20%;
+		display: inline !important;
+	}
+	.actions .btn{
+		width:36%;
+		margin:1.5em 0;
+	}
+	
+	.actions .btn-info{
+		float:left;
+	}
+	.actions .btn-danger{
+		float:right;
+	}
+	
+	table#cart thead { display: none; }
+	table#cart tbody td { display: block; padding: .6rem; min-width:320px;}
+	table#cart tbody tr td:first-child { background: #333; color: #fff; }
+	table#cart tbody td:before {
+		content: attr(data-th); font-weight: bold;
+		display: inline-block; width: 8rem;
+	}
+	
+	
+	
+	table#cart tfoot td{display:block; }
+	table#cart tfoot td .btn{display:block;}
+	
+}
+li.vertical-menu {
+    width: 100% !important;
+    min-width: 200px;
+    padding: 0px 4px 1px 4px;
+}
+
+
+/* Menu vertical test */
+html,body,.container-vertical-menu {
+    height:100%;
+}
+.container-vertical-menu {
+    display:table;
+    width: 100%;
+    /*padding: 50px 0 0 0;*/
+    box-sizing: border-box;
+}
+header {
+    background: green;
+    height: 50px;
+}
+
+.row-vertical {
+    height: 100%;
+    display: table-row;
+}
+
+.test1 {   
+    background: #E5E4E4;
+}
+.test2 {
+      	
+}
+
+.row-vertical .no-float {
+  display: table-cell;
+  float: none;
+}
+
+.container {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
 }
