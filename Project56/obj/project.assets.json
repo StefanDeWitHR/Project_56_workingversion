@@ -12575,23 +12575,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\super\\.nuget\\packages\\": {},
+    "C:\\Users\\rando\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\super\\OneDrive\\Documenten\\GitHub\\Project_56_workingversion\\Project56\\Project56.csproj",
+      "projectUniqueName": "C:\\Users\\rando\\OneDrive\\Documents\\GitHub\\Project_56_workingversion\\Project56\\Project56.csproj",
       "projectName": "Project56",
-      "projectPath": "C:\\Users\\super\\OneDrive\\Documenten\\GitHub\\Project_56_workingversion\\Project56\\Project56.csproj",
-      "packagesPath": "C:\\Users\\super\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\super\\OneDrive\\Documenten\\GitHub\\Project_56_workingversion\\Project56\\obj\\",
+      "projectPath": "C:\\Users\\rando\\OneDrive\\Documents\\GitHub\\Project_56_workingversion\\Project56\\Project56.csproj",
+      "packagesPath": "C:\\Users\\rando\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\rando\\OneDrive\\Documents\\GitHub\\Project_56_workingversion\\Project56\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\super\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\rando\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
