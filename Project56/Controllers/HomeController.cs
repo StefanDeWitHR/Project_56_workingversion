@@ -8,9 +8,12 @@ using Project56.Models;
 
 namespace Project56.Controllers
 {
-    public class HomeController : NavigatorController
+    public class HomeController : Controller
     {
-      
+        public IActionResult Index()
+        {
+            return View();
+        }
 
         public IActionResult About()
         {

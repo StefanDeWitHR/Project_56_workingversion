@@ -12577,6 +12577,7 @@
   "packageFolders": {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "C:\\Users\\Acer\\.nuget\\packages\\": {},
 =======
     "C:\\Users\\super\\.nuget\\packages\\": {},
@@ -12584,6 +12585,9 @@
 =======
     "C:\\Users\\rando\\.nuget\\packages\\": {},
 >>>>>>> parent of dc4efc3... shopping cart
+=======
+    "C:\\Users\\Acer\\.nuget\\packages\\": {},
+>>>>>>> parent of 3f49ea1... Merge branch 'master' of https://github.com/StefanDeWitHR/Project_56_workingversion
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -12591,11 +12595,15 @@
     "restore": {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 3f49ea1... Merge branch 'master' of https://github.com/StefanDeWitHR/Project_56_workingversion
       "projectUniqueName": "C:\\Users\\Acer\\Documents\\school\\jaar 2\\semester 1\\project 5-6\\Project_56_workingversion\\Project56\\Project56.csproj",
       "projectName": "Project56",
       "projectPath": "C:\\Users\\Acer\\Documents\\school\\jaar 2\\semester 1\\project 5-6\\Project_56_workingversion\\Project56\\Project56.csproj",
       "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Acer\\Documents\\school\\jaar 2\\semester 1\\project 5-6\\Project_56_workingversion\\Project56\\obj\\",
+<<<<<<< HEAD
 =======
       "projectUniqueName": "C:\\Users\\super\\OneDrive\\Documenten\\GitHub\\Project_56_workingversion\\Project56\\Project56.csproj",
       "projectName": "Project56",
@@ -12610,11 +12618,14 @@
       "packagesPath": "C:\\Users\\rando\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\rando\\OneDrive\\Documents\\GitHub\\Project_56_workingversion\\Project56\\obj\\",
 >>>>>>> parent of dc4efc3... shopping cart
+=======
+>>>>>>> parent of 3f49ea1... Merge branch 'master' of https://github.com/StefanDeWitHR/Project_56_workingversion
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         "C:\\Users\\Acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -12624,6 +12635,9 @@
 =======
         "C:\\Users\\rando\\AppData\\Roaming\\NuGet\\NuGet.Config",
 >>>>>>> parent of dc4efc3... shopping cart
+=======
+        "C:\\Users\\Acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> parent of 3f49ea1... Merge branch 'master' of https://github.com/StefanDeWitHR/Project_56_workingversion
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

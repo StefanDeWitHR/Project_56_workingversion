@@ -18,19 +18,6 @@ namespace Project56.Controllers
 
         // CHECK IF ADMIN /  USER
         [HttpGet]
-
-        public IActionResult Index()
-        {
-
-         var model = HttpContext.Session.Get<Users>("Usr_object"); 
-         if  (model != null){
-               ViewBag.user_level = model.user_level; 
-         }else{
-             ViewBag.user_level = -1;
-         }
-         return View();
-            
-        }
         public IActionResult SessionNavigator(string method_name , string controller_name){
 
             var ReadSession = HttpContext.Session.Get<Users>("Usr_object");
