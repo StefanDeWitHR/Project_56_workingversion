@@ -48,3 +48,13 @@ C:\Users\rando\OneDrive\Documents\GitHub\Project_56_workingversion\Project56\obj
 C:\Users\rando\OneDrive\Documents\GitHub\Project_56_workingversion\Project56\obj\Debug\netcoreapp2.0\Project56.AssemblyInfo.cs
 C:\Users\rando\OneDrive\Documents\GitHub\Project_56_workingversion\Project56\obj\Debug\netcoreapp2.0\Project56.dll
 C:\Users\rando\OneDrive\Documents\GitHub\Project_56_workingversion\Project56\obj\Debug\netcoreapp2.0\Project56.pdb
+C:\Users\Acer\Documents\school\jaar 2\semester 1\project 5-6\Project_56_workingversion\Project56\bin\Debug\netcoreapp2.0\Project56.deps.json
+C:\Users\Acer\Documents\school\jaar 2\semester 1\project 5-6\Project_56_workingversion\Project56\bin\Debug\netcoreapp2.0\Project56.runtimeconfig.json
+C:\Users\Acer\Documents\school\jaar 2\semester 1\project 5-6\Project_56_workingversion\Project56\bin\Debug\netcoreapp2.0\Project56.runtimeconfig.dev.json
+C:\Users\Acer\Documents\school\jaar 2\semester 1\project 5-6\Project_56_workingversion\Project56\bin\Debug\netcoreapp2.0\Project56.dll
+C:\Users\Acer\Documents\school\jaar 2\semester 1\project 5-6\Project_56_workingversion\Project56\bin\Debug\netcoreapp2.0\Project56.pdb
+C:\Users\Acer\Documents\school\jaar 2\semester 1\project 5-6\Project_56_workingversion\Project56\obj\Debug\netcoreapp2.0\Project56.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Documents\school\jaar 2\semester 1\project 5-6\Project_56_workingversion\Project56\obj\Debug\netcoreapp2.0\Project56.AssemblyInfoInputs.cache
+C:\Users\Acer\Documents\school\jaar 2\semester 1\project 5-6\Project_56_workingversion\Project56\obj\Debug\netcoreapp2.0\Project56.AssemblyInfo.cs
+C:\Users\Acer\Documents\school\jaar 2\semester 1\project 5-6\Project_56_workingversion\Project56\obj\Debug\netcoreapp2.0\Project56.dll
+C:\Users\Acer\Documents\school\jaar 2\semester 1\project 5-6\Project_56_workingversion\Project56\obj\Debug\netcoreapp2.0\Project56.pdb
