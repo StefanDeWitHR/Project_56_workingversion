@@ -17,7 +17,7 @@ namespace Project56.Controllers
             _context  = context;
         }
         [HttpGet]
-        public IActionResult Register()
+        public IActionResult Index()
         {
             return View();
         }
