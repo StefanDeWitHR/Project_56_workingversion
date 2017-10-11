@@ -9,18 +9,14 @@ using Project56.Models;
 
 namespace Project56.Controllers
 {
-    public class RegisterController : Controller
+    public class RegisterController : NavigatorController
     {
         private readonly DBModel _context;
 
         public RegisterController(DBModel context){
             _context  = context;
         }
-        [HttpGet]
-        public IActionResult Index()
-        {
-            return View();
-        }
+
         [HttpPost]
         public void Register(Users u ){
 
