@@ -11,7 +11,7 @@ using System.Web;
 
 namespace Project56.Controllers
 {
-    public class LoginController : Controller
+    public class LoginController : NavigatorController
     {
         private readonly DBModel _context;
 
@@ -19,10 +19,7 @@ namespace Project56.Controllers
             _context = context;
         }
         [HttpGet]
-        public IActionResult Login()
-        {
-            return View();
-        }
+       
         [HttpPost]
         public IActionResult Login(Users usr){
 
@@ -35,7 +32,7 @@ namespace Project56.Controllers
                     HttpContext.Session.Set<Users>("Usr_object" , result );                  
                     // remove session  = Context.Session.Remove("Name");
 
-                    var ReadSession = HttpContext.Session.Get<Users>("Usr_object");
+                     // 
                     
                    // var result1 = new NavigatorController().SessionNavigator("METHOD_NAME", "CONTROLLER_NAME");
 
@@ -52,10 +49,9 @@ namespace Project56.Controllers
                   return RedirectToAction("index", "LoginIncorrect");   
                 }
             }
-             
             return View();
         }
-    
+
         
         public ActionResult Logout()
         {

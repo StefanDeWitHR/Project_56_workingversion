@@ -1,4 +1,6 @@
-﻿<!DOCTYPE html>
+﻿@using Project56.Models;
+@model Project56.Models.Users;
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -40,8 +42,8 @@
                 </form>
             </div>
             <ul class="nav navbar-nav navbar-right">
-            <li>@Html.ActionLink("Registreren", "Register", "Register")</li>
-            <li>@Html.ActionLink("Login", "Login", "Login")</li>
+            <li>@Html.ActionLink("Registreren", "Index", "Register")</li>
+            <li>@Html.ActionLink("Login", "Index", "Login")</li>
             <li>@Html.ActionLink("Winkelwagen", "ShoppingCart", "ShoppingCart")</li>
             </ul>
         </div>
@@ -57,7 +59,21 @@
                             <li class="vertical-menu">@Html.ActionLink("Contact", "Contact", "Home")</li>
                             <li class="nav-divider"></li>
 
+<<<<<<< HEAD
+=======
+                              
+                                @if (ViewBag.user_level== 1)
+                                {
+                                <li class="vertical-menu">@Html.ActionLink("ADMIN", "Contact", "Home")</li>
+                                }@if(ViewBag.user_level ==0) {
+                                    <li class="vertical-menu">@Html.ActionLink("USER", "Contact", "Home")</li>
+                                }@if(ViewBag.user_level ==-1) {
+                                    <li class="vertical-menu">@Html.ActionLink("NIET INGELOGD", "Contact", "Home")</li>
+                                }
+>>>>>>> 5e1f085994077ab2a1cdbcb0b25041a6149d324e
 
+                         
+                        
                         </ul>
                     </nav>
                 </div>

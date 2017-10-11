@@ -44,6 +44,9 @@ namespace Project56.Models
         public string d_adres {get;set;}
         public string d_city{get;set;}
         
+        
+
+       
           
     }
 }
