@@ -8,7 +8,7 @@ using Project56.Models;
 
 namespace Project56.Controllers
 {
-    public class AdminController : NavigatorController
+    public class ContactController : NavigatorController
     {
     
     }

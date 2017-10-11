@@ -14,9 +14,20 @@ namespace Project56.Controllers
     public class NavigatorController : Controller
     {
 
-        // checks if the session is SET 
+         [HttpGet]
 
-        // CHECK IF ADMIN /  USER
+        public IActionResult Index()
+        {
+
+         var model = HttpContext.Session.Get<Users>("Usr_object"); 
+         if  (model != null){
+               ViewBag.user_level = model.user_level; 
+         }else{
+             ViewBag.user_level = -1;
+         }
+         return View();
+            
+        }
         [HttpGet]
         public IActionResult SessionNavigator(string method_name , string controller_name){
 

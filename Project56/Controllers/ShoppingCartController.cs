@@ -11,7 +11,7 @@ using System.Web;
 
 namespace Project56.Controllers
 {
-    public class ShoppingCartController : Controller
+    public class ShoppingCartController : NavigatorController
     {
        
         [HttpGet]

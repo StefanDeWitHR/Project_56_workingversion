@@ -11,17 +11,12 @@ using System.Web;
 
 namespace Project56.Controllers
 {
-    public class LoginController : Controller
+    public class LoginController : NavigatorController
     {
         private readonly DBModel _context;
 
         public LoginController (DBModel context) {
             _context = context;
-        }
-        [HttpGet]
-        public IActionResult Login()
-        {
-            return View();
         }
         [HttpPost]
         public IActionResult Login(Users usr){
