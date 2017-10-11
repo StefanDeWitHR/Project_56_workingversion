@@ -49,6 +49,7 @@ C:\Users\rando\OneDrive\Documents\GitHub\Project_56_workingversion\Project56\obj
 C:\Users\rando\OneDrive\Documents\GitHub\Project_56_workingversion\Project56\obj\Debug\netcoreapp2.0\Project56.AssemblyInfo.cs
 C:\Users\rando\OneDrive\Documents\GitHub\Project_56_workingversion\Project56\obj\Debug\netcoreapp2.0\Project56.dll
 C:\Users\rando\OneDrive\Documents\GitHub\Project_56_workingversion\Project56\obj\Debug\netcoreapp2.0\Project56.pdb
+<<<<<<< HEAD
 C:\Users\Acer\Documents\school\jaar 2\semester 1\project 5-6\Project_56_workingversion\Project56\bin\Debug\netcoreapp2.0\Project56.deps.json
 C:\Users\Acer\Documents\school\jaar 2\semester 1\project 5-6\Project_56_workingversion\Project56\bin\Debug\netcoreapp2.0\Project56.runtimeconfig.json
 C:\Users\Acer\Documents\school\jaar 2\semester 1\project 5-6\Project_56_workingversion\Project56\bin\Debug\netcoreapp2.0\Project56.runtimeconfig.dev.json
@@ -61,3 +62,5 @@ C:\Users\Acer\Documents\school\jaar 2\semester 1\project 5-6\Project_56_workingv
 C:\Users\Acer\Documents\school\jaar 2\semester 1\project 5-6\Project_56_workingversion\Project56\obj\Debug\netcoreapp2.0\Project56.pdb
 =======
 >>>>>>> 5e1f085994077ab2a1cdbcb0b25041a6149d324e
+=======
+>>>>>>> parent of dc4efc3... shopping cart

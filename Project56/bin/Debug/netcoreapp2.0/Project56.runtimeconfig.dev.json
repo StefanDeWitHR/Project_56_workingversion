@@ -2,12 +2,17 @@
   "runtimeOptions": {
     "additionalProbingPaths": [
 <<<<<<< HEAD
+<<<<<<< HEAD
       "C:\\Users\\Acer\\.dotnet\\store\\|arch|\\|tfm|",
       "C:\\Users\\Acer\\.nuget\\packages",
 =======
       "C:\\Users\\super\\.dotnet\\store\\|arch|\\|tfm|",
       "C:\\Users\\super\\.nuget\\packages",
 >>>>>>> 5e1f085994077ab2a1cdbcb0b25041a6149d324e
+=======
+      "C:\\Users\\rando\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\rando\\.nuget\\packages",
+>>>>>>> parent of dc4efc3... shopping cart
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
     ]
   }
